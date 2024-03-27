@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="container mt-3">
+        <div id="filters-container" class="row mb-4">
+            <div class="col">
+                <input id="search" type="search" placeholder="Search" class="form-control">
+            </div>
+            <div class="col">
+                <select id="categories" class="form-select">
+                    <option value="">None</option>
+                </select>
+            </div>
+            <div class="col">
+                <select id="sort" class="form-select">
+                    <option value="">None</option>
+                    <option value="cheap">Cheapest to most expensive</option>
+                    <option value="expensive">Most expensive to cheapest</option>
+                </select>
+            </div>
+        </div>
+        <div id="products-container" class="row row-cols-1 row-cols-md-3 g-4">
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

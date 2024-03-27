@@ -1,0 +1,53 @@
+/* Custom CSS */
+
+/* Container */
+#container {
+    padding: 20px;
+}
+
+
+#filters-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#search, #categories, #sort {
+    border-radius: 5px;
+}
+
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.product-card .card-body {
+    padding: 15px;
+}
+
+
+.product-card .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.product-card .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
